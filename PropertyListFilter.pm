@@ -8,7 +8,7 @@ require Exporter;
 
 @ISA = qw(Exporter);
 @EXPORT_OK = qw( xml_filter );
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub xml_filter {
   my ($href,$filter) = @_;
@@ -39,7 +39,7 @@ __END__
 
 =head1 NAME
 
-Mac::PropertyListFilter - Perl extension for blah blah blah
+Mac::PropertyListFilter - Transform XML Property lists into data structure.
 
 =head1 SYNOPSIS
 
